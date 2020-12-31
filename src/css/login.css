@@ -1,0 +1,463 @@
+body{
+    font: 12px "微软雅黑", Arial;
+}
+.head{
+    width: 970px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo{
+    display: block;
+    width: 189px;
+    height: 100px;
+    float: left;
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/header190-60.png) no-repeat center;
+}
+.bind-phone{
+    float: left;
+    color: #333;
+    background-color: rgb(238, 248, 196);
+    border: 1px solid #fecd66;
+    line-height: 16px;
+    padding: 4px 6px;
+    font-size: 12px;
+    margin-top:37px;
+    margin-left: 10px;
+    *zoom:1;
+}
+.a1{
+    color: red;
+    border: 0;
+}
+.advise{
+    float: right;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.advise:hover{
+    color: red;
+}
+.advise i{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: simsun;
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -67px -27px;
+}
+.main{
+    min-width: 970px;
+    height: 570px;
+    background: url(https://image.suning.cn/uimg/cms/img/160863506735081572.jpg) no-repeat center;
+}
+.login{
+    width: 970px;
+    height: 570px;
+    margin: 0 auto;
+}
+.skipA{
+    display: block;
+    width: 570px;
+    height: 570px;
+    float: left;
+}
+.login-form{
+    position: relative;
+    width: 360px;
+    height: 410px;
+    background-color: white;
+    float: right;
+    margin-top: 50px;
+}
+.login-tab{
+    height: 50px;
+    line-height: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+.login-tab a{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.login-tab a:hover{
+    color: red;
+}
+.login-tab a:hover{
+    color: red;
+}
+.login-tab a span{
+    display: block;
+    border-right: 1px solid #eee;
+    margin-top: 15px;
+}
+.inp-box{
+    padding: 0 24px;
+}
+.loging-prompt{
+    height: 40px;
+}
+.pc-login{
+    display: block;
+}
+.inp-login{
+    position: relative;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    height: 36px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.inp-login input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    padding: 0 32px 0 36px;
+    border: 0;
+    font-size: 14px;
+    margin-left: -36px;
+}
+.inp-login i{
+    /* display: block; */
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -123px -67px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.login-help{
+    padding-top: 10px;
+    line-height: 35px;
+    height: 35px;
+    zoom: 1;
+}
+.login-help>a:nth-child(1){
+    float: left;
+    cursor: pointer;
+}
+.login-help>a:nth-child(1):hover{
+    color: red;
+}
+.user-i{
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -21px -149px;
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    vertical-align:-3px;
+}
+.login-help>a:nth-child(2){
+    float: right;
+    cursor: pointer;
+}
+.login-help>a:nth-child(2):hover{
+    color: red;
+    text-decoration: underline ;
+}
+.logInA{
+    display: block;
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    background-color: red;
+    opacity: 0.6;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    color:#eee;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logInA:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+.phone-box{
+    padding: 0 24px;
+}
+.loging-prompt{
+    height: 40px;
+}
+.pc-login{
+    display: block;
+}
+.phone-login{
+    position: relative;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    height: 36px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.phone-login input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    padding: 0 32px 0 36px;
+    border: 0;
+    font-size: 14px;
+    margin-left: -36px;
+}
+.gvc{
+    /* position: relative; */
+    /* border: 1px solid #ddd; */
+    color: #999;
+    /* padding: 0 32px 0 36px; */
+    height: 36px;
+    overflow: hidden;
+    width: 170px;
+    float: left;
+    
+}
+
+.phone-gvc{
+    position:absolute;
+    float: left;
+    width: 101px;
+    height: 100%;
+    line-height: 36px;
+    text-align: center;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-left: 0 none;
+    font-size: 14px;
+    text-decoration: none;
+    top: -1px;
+    left: 209px;
+    cursor: pointer;
+}
+.phone-gvc:hover{
+    color: red;
+}
+.phone-login i{
+    /* display: block; */
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -123px -67px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.login-help{
+    padding-top: 10px;
+    line-height: 35px;
+    height: 35px;
+    zoom: 1;
+}
+.login-help>a:nth-child(1){
+    float: left;
+    cursor: pointer;
+}
+.login-help>a:nth-child(1):hover{
+    color: red;
+}
+.phone-i{
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -39px -149px;
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    vertical-align:-3px;
+}
+.login-help>a:nth-child(2){
+    float: right;
+    cursor: pointer;
+}
+.login-help>a:nth-child(2):hover{
+    color: red;
+    text-decoration: underline ;
+}
+.logInA{
+    display: block;
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    background-color: red;
+    opacity: 0.6;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    color:#eee;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logInA:hover{
+    opacity: 1;
+}
+
+
+
+.cord-box{
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+.cord-box>div{
+    height: 156px;
+    padding: 20px 34px 0;
+    position: relative;
+    margin-bottom: 17px;
+}
+.QRcord-box{
+    width: 141px;
+    height: 141px;
+    margin: 0 auto;
+    transition: .3s all;
+    position: relative;
+}
+.QRcord-box:hover{
+transform: translateX(-76px);
+}
+.QRcord-box>image{
+    width: 100%;
+    height: 100%;
+}
+.phone-app{
+    position: absolute;
+    top: -20px;
+    right: 34px;
+    width: 133px;
+    height: 200px;
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/scan.png) no-repeat;
+}
+
+
+
+
+.login-reg{
+    width: 360px;
+    height: 18px;
+    margin: 12px 0 35px;
+    text-align: center;
+}
+.login-reg>a{
+    line-height: 18px;
+    color: red;
+    cursor: pointer;
+}
+.login-reg>a:hover{
+    text-decoration: underline ;
+}
+.login-channel{
+    width: 310px;
+    /* height: 53px; */
+    margin: 0 25px;
+    padding: 19px 0 17px;
+    position: relative;
+    border-top: solid 1px #cccccc;  
+}
+.login-channel>span{
+    position: absolute;
+    top: -9px;
+    left: 91px;
+    text-align: center;
+    background: white;
+    width: 128px;
+}
+.channelA{
+    width: 310px;
+    height: 16px;
+}
+.channelA>a{
+    float: left;
+    line-height: 16px;
+    border-right: 1px solid #ccc;
+    padding: 0 7px;
+
+}
+.channelA>a>i{
+    float: left;
+    /* background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -140px -108px; */
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.channelA>a:nth-child(1)>i{
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -140px -108px;
+}
+.channelA>a:nth-child(2)>i{
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -90px -27px;
+}
+.channelA>a:nth-child(3)>i{
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat -119px -108px;
+}
+.channelA>a:nth-child(4)>i{
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) no-repeat 0px -149px;
+}
+.bottom{
+    width: 990px;
+    height: 185px;
+    margin: 0 auto;
+    /* background: aqua; */
+    padding-top: 15px;
+    text-align: center;
+}
+.bottom>p{
+    width: 990px;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    text-align: center;
+}
+.bottom>p>span{
+    padding: 0 8px;
+}
+.bottom>p:nth-child(1)>a:hover{
+    color: red;
+    text-decoration: underline ;
+    cursor: pointer;
+}
+.bottom>p:nth-child(2)>a:hover{
+    color: red;
+    text-decoration: underline ;
+    cursor: pointer;
+}
+.bottom>p:nth-child(3)>a{
+    position: relative;
+}
+.bottom>p:nth-child(3)>a>i{
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://image.suning.cn/uimg/cms/img/154529778410088431.png)
+}
+.bottom>p:nth-child(1n+2)>a{
+    color: #999;
+}
+.ng{
+    margin: 0 auto;
+    width: 990px;
+}
+.ng>a{
+    display: inline-block;
+    margin-right: 8px;
+}
+.ng>a>img{
+    height: 24px;
+    width: 76px;
+}
+.mhover{
+    display: inline;
+    cursor: pointer;
+
+}
+.mhover:hover{
+    text-decoration: underline ;
+}

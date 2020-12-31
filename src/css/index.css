@@ -1,0 +1,909 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+}
+.top{
+    position: relative;
+    z-index: 9999;
+    clear: both;
+    min-width: 1190px;
+    height: 100px;
+    min-width: 990px;
+    font-size: 0;
+    margin: 0 auto;
+    background: #c02038;
+    cursor: pointer;
+}
+.top>a>img{
+    display: block;
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+}
+.ng-toolbar{
+    min-width: 1190px;
+    position: relative;
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    border-bottom: 1px solid #eee;
+    background: rgba(0, 0, 0, 0.5);
+}
+.ng-toolbar>div{
+    width: 1190px;
+    margin: 0 auto;
+}
+.ng-toolbar-left{
+    float: left;
+}
+.ng-toolbar-left>div{
+    position: relative;
+    float: left;
+    margin-left: -1px;
+    line-height: 35px;
+}
+.ng-toolbar-left>div>a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    line-height: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+.ng-toolbar-left>div>a>span{
+    display: inline-block;
+    cursor: pointer;
+}
+.ng-toolbar-left :hover .ng-em{
+    -webkit-transform: rotate(540deg);
+}
+.ng-em{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+    vertical-align: middle;
+    font-family: "ng-iconfont"!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/index.png?v=2020112301') no-repeat -423px -223px ;
+    transition: all 0.3s;
+}
+.reg-bar-order :hover .ng-em{
+    -webkit-transform: rotate(540deg);
+}
+.situs{
+    display: inline-block;
+    height: 24px;
+    padding: 6px 5px 6px 6px;
+    color: #000;
+    position: relative;
+    z-index: 100;
+    line-height: 35px;
+}
+.ng-toolbar-left>div>a>i{
+    float: left;
+    width: 12px;
+    height: 15px;
+    margin: 10px 6px 0 6px;
+    background: url('https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/index.png?v=2020112301') -387px -183px;
+}
+.ng-toolbar-right{
+    float: right;
+}
+.reg-bar-node{
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    line-height: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+.reg-bar-node>a:nth-child(1){
+    position: relative;
+    height: 35px;
+    width: 100%;
+    min-width: 990px;
+    line-height: 35px;
+    /* border-bottom: 1px solid #eee; */
+    /* background: #f5f5f5; */
+    *margin-top: -1px;
+    cursor: pointer;
+}
+.reg-bar-node>a:nth-child(2){
+    position: relative;
+    margin-left: 10px;
+    color: #F60;
+    cursor: pointer;
+}
+.reg-bar-order{
+    position: relative;
+    float: left;
+    margin-left: -1px;
+}
+.order{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    line-height: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+.order>span{
+    display: inline-block;
+    cursor: pointer;
+}
+.index-head{
+    position: relative; 
+    width: 100%;
+    height: 100px;
+    background: #FFF;
+    z-index: auto;
+    min-width: 990px;
+}
+.index-head>div{
+    position: relative;
+    height: 100px;
+    width: 990px;
+    min-width: 1190px;
+    margin: 0 auto;
+}
+.index-head>div>a{
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 90px;
+}
+.index-head>div>a>img{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.search-box{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    top: 0;
+    left:300px;
+}
+.search-box>div{
+    display: inline;
+    position: relative;
+    float: right;
+    width: 500px;
+    margin: 30px 0 0;
+}
+
+/* .search-bar>div>i{
+ } */
+
+.search-bar{
+    float: left;
+    width: 385px;
+    height: 40px;
+    padding: 0 0 0 28px;
+    border: 2px solid #ff8000;
+    border-right: none;
+    position: relative;
+    border-radius: 12px 0 0 12px;
+    border-color: #ff8000;
+    margin-left: -35px;
+}
+.searching{
+    width: 375px;
+    padding: 9px 10px 9px 0;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 0;
+    border: none;
+    background: #FFF;
+    color: #BBB;
+    font-size: 12px;
+    font-family: 'MicroSoft YaHei';
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    color: #ccc;
+}
+.search-btn{
+    width: 120px;
+    height: 44px;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'MicroSoft YaHei';
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-indent: 2px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    background: #ff8000;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    float: left;
+}
+.search-Alabel{
+    float: left;
+    width: 100%;
+    height: 18px;
+    margin-top: 5px;
+    overflow: hidden;
+    font-size: 0;
+}
+.search-Alabel>a{
+    float: left;
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 3px 0 3px -11px;
+    padding: 0 20px 0 10px;
+    border-left: 1px solid #ddd;
+    height: 12px;
+    line-height: 12px;
+    cursor: pointer;
+}
+.search-Alabel>a:hover{
+    color: red;
+}
+.red{
+    color: red;
+}
+.ng-nav-bar{
+    min-width: 1190px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    overflow: visible;
+    height: 38px;
+}
+.ng-nav-bar>div{
+    position: relative;
+    /* height: 38px; */
+    width: 1190px;
+    min-width: 1190px;
+    margin: 0 auto;
+}
+.all-hook{
+    position: absolute;
+    display: block;
+    width: 166px;
+    padding-left:34px;
+    height: 38px;
+    top: 0;
+    line-height: 38px;
+    background: #ff8000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 12px 12px 0 0;
+    text-decoration: none;
+}
+.all-hook>i{
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 14px;
+    top: 12px;
+    left: 12px;
+    background: url('https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/index.png?v=2020112301') -928px -26px;
+    background-position: -928px 0;
+}
+
+.classify-wrap{
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 200px;
+    height: 476px;
+}
+.classify-wrap>ul{
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 200px;
+    height: 476px;
+    z-index: 7677;
+    background-color: #eee;
+}
+.classify-wrap>ul>li{
+    position: relative;
+    width: 166px;
+    overflow: hidden;
+    padding: 0 6px 0 28px;
+    height: 31px;
+    line-height: 31px;
+}
+.classify-wrap>ul>li:hover{
+    background-color: #ccc;
+}
+.classify-wrap>ul>li>img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 6px;
+    top: 9px;
+}
+.classify-wrap>ul>li>a{
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.classify-wrap>ul>li>a:hover{
+    color: red;
+}
+
+.ng-nav-ul{
+    float: left;
+    width: 785px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    margin-left: -405px;
+    position: absolute;
+    left: 50%;
+    padding-left: 10px;
+    /* background-color: aqua; */
+}
+.ng-nav-ul>ul>li{
+    float: left;
+    display: block;
+    position: relative;
+    height: 38px;
+    font-weight: bold;
+    padding: 0 12px 0 13px;
+}
+.ng-nav-ul>ul>li>a{
+    position: relative;
+    float: left;
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+}
+.ng-nav-ul>ul>li>a>img{
+    display: block;
+    width: 110px;
+    height: 38px;
+}
+.ng-nav-ul>ul>li>span{
+    position: absolute;
+    width: 25px;
+    height: 8px;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -12px;
+    background: url('https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/index.png?v=2020112301') -37px 0;
+    transition: all .5s;
+}
+.hot{
+    position: absolute;
+    display: inline-block;
+    height: 17px;
+    width: 14px;
+    left: auto;
+    right: -14px;
+    top: 0;
+    background: url('https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/index.png?v=2020112301');
+    background-position: -345px -213px;
+}
+.ng-rule{
+    float: right;
+}
+.ng-rule>img{
+    display: block;
+    width: 196px;
+    height: 39px;
+}
+.banner-wrap{
+    position: relative;
+    width: 100%;
+    height: 476px;
+    overflow: hidden;
+    min-width:1190px;
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 476px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.banner>ul{
+    position: absolute;
+    width: 100%;
+    height: 476px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+} 
+.banner>ul>li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 476px;
+}
+.banner>ul>li>a{
+    top: 0;
+    left: 50%;
+    margin-left: -396px;
+    width: 794px;
+    height: 476px;
+    position: absolute;
+    display: block;
+}
+.swiper-slide>img{
+    width: 794px;
+    height: 476px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.first-right{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 398px;
+    width: 196px;
+    height: 482px;
+    background: #FFF;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+.first-right>div:nth-child(1){
+    overflow: hidden;
+    position: relative;
+    width: 196px;
+    height: 225px
+}
+.headerimg-box{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 10px;
+    top: 10px;
+    background: url(https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/tool-logo.png?v=2020112301);
+    z-index: 1;
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.headerimg-box>a{
+    display: block;
+}
+.headerimg-box>a>img{
+    display: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: 0;
+}
+.not-login{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-group{
+    float: left;
+    margin-top: 15px;
+    margin-left: 66px;
+    width: 125px;
+    height: 38px;
+    font-size: 12px;
+    color: #333;
+}
+.btn-group>p{
+    width: 122px;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn-group>a{
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.not-login>a:nth-child(2){
+    color: #fff;
+    margin-top: 70px;
+    background: #ff8000;
+    display: block;
+    width: 156px;
+    height: 24px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.not-login>a:nth-child(3){
+    color: #fada99;
+    margin-top: 10px;
+    background-image: linear-gradient(-90deg,#373a77 3%,#17125b 100%);
+    display: block;
+    width: 156px;
+    height: 24px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.super-privilege{
+    position: absolute;
+    width: 196px;
+    height: 62px;
+    left: 0;
+    bottom: 23px;
+    background: #fff;
+}
+.super-privilege>a{
+    float: left;
+    width: 65px;
+    height: 62px;
+}
+.super-privilege>a>img{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 6px auto;
+}
+.super-privilege>a>p{
+    text-align: center;
+}
+.bot-box{
+    float: left;
+    position: relative;
+    width: 196px;
+    height: 250px;
+    border-top: 1px solid #ccc;
+}
+.bot-box>ul>li{
+    float: left;
+    width: 65px;
+    height: 85px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #f2f2f2;
+    box-sizing: border-box;
+}
+.bot-box>ul>li>a>img{
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 12px 20px;
+}
+.bot-box>ul>li>a>p{
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    max-width: 66px;
+    overflow: hidden;
+}
+.conceal-wzdh{
+    width: 988px;
+    padding: 20px 0;
+    left: auto;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+    z-index: 7691;
+}
+.conceal-wzdh>dl{
+    float: left;
+    width: 176px;
+    border-right: 1px solid #eee;
+    padding-left: 20px;
+}
+.conceal-wzdh>dl>dt{
+    height: 25px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+}
+.conceal-wzdh>dl>dd{
+    width: 100%;
+    overflow: hidden;
+}
+.conceal-wzdh>dl>dd>p{
+    float: left;
+    height: 25px;
+    width: 78px;
+    line-height: 25px;
+}
+.conceal-wzdh>dl>dd>p>a{
+position: relative;
+display: inline-block;
+}
+.conceal-wzdh>dl>dd>p>a>i{
+    position: absolute;
+    display: inline-block;
+    height: 17px;
+    width: 14px;
+    left: auto;
+    right: -14px;
+    top: 0;
+    background: url('https://res.suning.cn/public/v3/css/images/npbg.png?v=2015102601')!important;
+    background-position: 0 -205px!important;
+    z-index: 7691;
+}
+.conceal-sjrz{
+    z-index: 7691;
+    left: 0;
+    right: auto;
+    width: 162px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.conceal-sjrz>a{
+        height: 28px;
+        line-height: 28px;
+        display: block;
+        padding-left: 10px;
+        width: 71px;
+        padding: 0;
+        float: left;
+        color: #666;
+        /* text-align: center; */
+        margin-left: 10px;
+}
+.conceal-khfw{
+    z-index: 7691;
+    left: auto;
+    right: 0;
+    width: 162px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.conceal-khfw>a{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    width: 71px;
+    padding: 0;
+    float: left;
+    margin-left: 10px;
+}
+.conceal-wddd{
+        z-index: 7691;
+        width: 81px;
+        padding-bottom: 5px;
+        position: absolute;
+        top: 35px;
+        border: 1px solid #ddd;
+        background: #fff;
+        left: 0;
+}
+.conceal-wddd>a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 71px;
+    float: left;
+}
+.conceal-situs{
+    position: absolute;
+    /* min-height: ; */
+    width: 370px;
+    top: 36px;
+    left: 0;
+    margin-top: -1px;
+    /* background: #ccc; */
+    box-shadow: 0 2px 4px 0 rgba(225, 225, 225, 0.5);
+    /* padding-top:5px; */
+    z-index: 9999;
+    min-height: 100px;
+
+}
+.conceal-situs>a{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 5px 10px;
+    overflow: hidden;
+    width: 0;
+    height: 8px;
+    background:url(../img/index.png) -164px -217px no-repeat;
+    
+}
+.conceal-situs>a:visited{
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+.conceal-situs>div{
+    width: 370px;
+    background: #fff;
+}
+.situs-ul{
+    padding-left: 14px;
+    zoom: 1;
+    display: block;
+    background: #ccc;
+}
+.situs-ul>li{
+    float: left;
+    position: relative;
+    z-index: 2;
+    border: 1px solid #ededed;
+    height: 26px;
+    background: #fff;
+    margin-right: 6px;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.situs-ul>li>a{
+    display: inline-block;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    height: 26px;
+    width: 56px;
+    background: #ccc;
+}
+.address-ul{
+    display: block;
+    /* padding-bottom: 15px; */
+    background: white;
+    border-top: 1px solid #ccc;
+    /* padding-inline-start: 40px; */
+}
+.address-ul>li{
+    display: list-item;
+    background: white;
+    /* text-align: center; */
+}
+.conceal-situs li::after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.address-ul>li>span{
+    float: left;
+    width: 92px;
+    height: 20px;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+}
+.address-ul>li>span>a{
+    display: inline-block;
+    background: #fff;
+    height: 20px;
+    padding: 0 4px;
+    line-height: 20px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+}
+.conceal-wdyg{
+    width: 203px;
+    z-index: 7691;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+    left: 0;
+}
+.conceal-wdyg>a{
+    width: 91px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    float: left;
+}
+.wdyg-head{
+    float: left !important;
+    width: 54px !important;
+    height: 54px !important;
+    border: 1px solid #f7f7f7 !important;
+    padding: 0 !important;
+}
+.wdyg-head>img{
+    display: block;
+    width: 54px;
+    height: 54px;
+}
+.conceal-wdyg>div{
+    float: left;
+    width: 86px;
+    height: 56px;
+    padding-left: 20px;
+}
+.wdyg-name{
+    height: 28px;
+    overflow: hidden;
+    width: 91px;
+    display: block;
+    margin-left: 20px;
+    line-height: 28px;
+    float: none;
+    padding: 0;
+    word-break: break-all;
+    margin-top: 14px;
+}
+
+
+
+.conceal-gwc{
+    width: 280px;
+    height: 400px;
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 0;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    left: 0;
+    z-index: 9999;
+}
+
+.conceal-QR{
+    z-index: 9999;
+    right: 0;
+    left:auto;
+    width: 580px;
+    height: 182px;
+    overflow: hidden;
+    position: absolute;
+    top: 35px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+.conceal-QR>ul{
+    width: 580px;
+}
+.conceal-QR>ul>li{
+    float: left;
+    width: 120px;
+    margin: 13px 0 0 20px;
+}
+.conceal-QR>ul>li>img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 2px;
+}
+.conceal-QR>ul>li>p{
+    width: 120px;
+    height: 17px;
+    line-height: 17px;
+    overflow: hidden;
+    text-align: center;
+    color: #666;
+}
