@@ -216,3 +216,34 @@ $('.cart').click(function(){
 
     }
 })
+
+function count(){
+    countDown = setInterval(function(){
+       var time1 = new Date().getTime();
+       var time3 = new Date(2021,0,8,22,33,33);
+       var difference = parseInt((time3 - time1)/1000);
+       var day = parseInt(difference/(24*60*60));
+       difference = difference - 24*60*60*day;
+       var hour = parseInt(difference/3600);
+       difference = difference - hour*3600;
+       var minute = parseInt(difference/60) 
+       var second = difference - minute*60
+       if ((hour)<10){
+           hour="0"+hour
+       }
+       if (minute<10){
+        minute="0"+minute
+         }
+        if (second<10){
+            second="0"+second
+          }
+          if (day<10){
+            day="0"+day
+          }
+          $('.day').text(day)
+       $('.hour').text(hour)
+       $('.minute').text(minute)
+       $('.second').text(second)
+   },1000)
+   }
+   count()
