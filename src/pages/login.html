@@ -29,22 +29,22 @@
             <a href="./index.html" class="skipA"></a>
             <div class="login-form">
                 <div class="login-tab">
-                    <a href="#"><span>扫码登陆</span></a>
-                    <a href="#"><span>账号登陆</span></a>
+                    <a href="#" class="code-landing"><span>扫码登陆</span></a>
+                    <a href="#" class="user-landing"><span>账号登陆</span></a>
                 </div>
                 <div class="pc-login">
                     <div class="inp-box" style="display: none;">
                         <div class="loging-prompt"> </div>
                         <div class="inp-login">
-                            <input type="text" placeholder="用户名/手机/邮箱">
+                            <input type="text" class="inpuser" placeholder="用户名/手机/邮箱">
                             <i></i>
                         </div>
                         <div class="inp-login">
-                            <input type="password" placeholder="密码">
-                            <i style="background-position: 0 -108px;"></i>
+                            <input type="password" class="inppass" placeholder="密码">
+                            <i class="lock" style="background-position: 0 -108px;"></i>
                         </div>
                         <div class="login-help">
-                            <a><i class="user-i"></i>
+                            <a class="phone-landing"><i class="user-i"></i>
                                 短信验证码登录</a>
                             <a>忘记密码？</a>
                         </div>
@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="login-help">
-                            <a><i class="phone-i"></i>
+                            <a class="user-landing"><i class="phone-i"></i>
                                 账号密码登录</a>
                             <a>忘记密码？</a>
                         </div>
@@ -78,7 +78,6 @@
                             <img src="https://passport.suning.com/ids/qrLoginUuidGenerate.htm?image=true&yys=1608860361231">
                         </div>
                         <div class="phone-app" style="display: none;">
-
                         </div>
                     </div>
 
@@ -86,7 +85,7 @@
 
                 </div>
                 <div class="login-reg">
-                    <a>注册 有惊喜 ></a>
+                    <a href="./register.html">注册 有惊喜 ></a>
                 </div>
                 <div class="login-channel">
                     <span>使用以下账号登录</span>
@@ -156,6 +155,6 @@
 </body>
 
 </html>
-<script>
-    
-</script>
+<script src="../js/cookie.js"></script>
+<script src="../js/jquery1.12.4.min.js"></script>
+<script src="../js/login.js"></script>

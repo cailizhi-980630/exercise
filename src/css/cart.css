@@ -1,0 +1,284 @@
+.cart-header{
+    min-width: 1190px;
+}
+.header-box{
+    width: 1190px;
+    min-width: 1190px;
+    min-height: 175px;
+    clear: both;
+    zoom: 1;
+    margin: 0 auto;
+}
+.header-banner{
+    padding-top: 15px;
+}
+.header-banner a img{
+    height: 60px;
+    width: 1190px;
+    display: block;
+}
+.g-logo{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 400px;
+    height: 100px;
+}
+.g-logo a{
+    cursor: pointer;
+}
+.g-logo a img{
+    margin-top: 20px;
+    width: 190px;
+    height: 60x;
+}
+.cart-search{
+    position: relative;
+    float: right;
+    width: 400px;
+    margin-top: 34px;
+    z-index: 999;
+}
+.cart-search-box{
+    float: left;
+    width: 318px;
+    height: 28px;
+    border: 2px solid #f50;
+    border-right: 0 none;
+}
+.cart-search-box i{
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin: 8px 0 0 11px;
+    background: url(https://res.suning.cn/project/ccf/css/images/lion-cart.png?v=c0878859d58b6406db003165ff81d198) -200px -70px no-repeat;
+}
+.cart-search-box input{
+    float: left;
+    width: 285px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 0;
+    margin-left: 9px;
+    border: 0;
+    background: #fff;
+}
+.cart-search  a{
+    float: left;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    background: #f50;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    color: #fff;
+}
+.cart-main-box{
+    width: 1190px;
+    min-width: 1190px;
+    clear: both;
+    margin: 0 auto;
+    min-height: 1000px;
+}
+.cart-table{
+    width: 100%;
+    /* display: block; */
+    background-color: #FFFBF2;
+}
+.cart-table thead{
+    background-color: #FFF5E2;
+    /* display: block; */
+    width: 100%;
+}
+.cart-table tbody tr th{
+    position: relative;
+    height: 80px;
+}
+.cart-table tbody tr th:nth-child(2){
+    width: 310px;
+}
+.cart-table tbody tr th:nth-child(3){
+    width: 90px;
+}
+.cart-table tbody input{
+    position: absolute;
+    left: 59px;
+    cursor: pointer;
+}
+.cart-table tbody img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    float: left;
+    /* margin: -1px 0 0 px; */
+}
+.cart-table tbody span{
+    float: left;
+    width: 200px;
+    height: 80px;
+    margin: 0px 15px;
+    word-wrap :normal;
+    text-align: left;
+    word-wrap:break-word;
+}
+.cart-table tbody p{
+    width: 90px;
+    height: 80px;
+}
+.cart-table tbody a{
+    color: #666;
+    cursor: pointer;
+}
+.cart-table tbody a:hover{
+    color: red;
+}
+.cart-toolbar{
+    zoom: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 5px 15px 8px #dcdbdb;
+    border: 0;
+    z-index: 1000;
+    background-color: white;
+    min-height: 60px;
+}
+.toolbar-box {
+    position: relative;
+    width: 1188px;
+    margin: 0 auto;
+}
+.l-column{
+    position: relative;
+    width: auto;
+    height: 18px;
+    margin-top: 20px;
+    margin: 10px 10px 0;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.l-column input{
+    cursor: pointer;
+}
+.delete{
+    color: #666;
+    margin-left: 20px;
+    position:absolute;
+    top:12px;
+    cursor: pointer;
+
+}
+.delete:hover{
+    color: red;
+}
+.save-ship{
+    margin-top: 6px;
+    zoom: 1;
+    float: left;
+}
+.alchose {
+    float: right;
+    line-height: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.alchose a{
+    color: #333;
+}
+.alchose a b{
+    color: #f60;
+}
+.cart-total-price{
+    float: right;
+    line-height: 22px;
+    text-align: right;
+}
+.sn-sum-price{
+    float: left;
+    position: relative;
+}
+.cart-sum-price{
+    line-height: 22px;
+    text-align: right;
+}
+.totalName{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    color: #333;
+}
+.sn-price{
+    vertical-align: middle;
+    font-weight: 400;
+    color: #f60;
+}
+.sn-price i{
+    font-size: 14px;
+    color: #f60;
+
+}
+.sn-price em{
+    font-size: 22px;
+    margin-left: 1px;
+    font-family: tahoma;
+    color: #f60;
+}
+.cart-checkout{
+    position: relative;
+    padding-left: 15px;
+    line-height: 58px;
+    float: right;
+}
+.cart-checkout a{
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -1px;
+    margin-right: -1px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    background-color: #f60;
+    /* border-radius: 2px; */
+}
+.subtractA{
+    width: 22px;
+    background: url(https://res.suning.cn/project/pdsWeb/csspc2017/images/f-icons-ex1.png?v=1604977855);
+    background-position: -1026px -792px;
+    /* float: left; */
+    height: 30px;
+    position: absolute;
+    left: 0px;
+}
+.number{
+    /* float: left; */
+    width: 25px;
+    height: 18px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 100%;
+    outline: 0;
+    position: absolute !important;
+    left: 16px !important;
+}
+.plusA{
+    width: 22px;
+    background: url(https://res.suning.cn/project/pdsWeb/csspc2017/images/f-icons-ex1.png?v=1604977855);
+    background-position: -891px -696px;
+    /* float: left; */
+    height: 30px;
+    position: absolute;
+    left: 57px;
+}
