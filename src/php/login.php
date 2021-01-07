@@ -2,7 +2,7 @@
     $username = $_REQUEST['username'];
     $password = $_REQUEST['password'];
 
-    $conn = mysqli_connect("localhost","root","root","sn");
+    $conn = mysqli_connect("127.0.0.1","root","root","sn");
     
     $sql = "SELECT * FROM `snuser` WHERE `username`='$username'";
 
